@@ -1,0 +1,17 @@
+{
+
+	"name": "RoPro - Enhance Roblox",
+	"version": "1",
+	"description": "The perfect tool for players to export any Roblox asset",
+	"manifest_version": 3,
+	"content_scripts": [
+		{
+			"js": [
+				"getClothing.js"
+			],
+			"matches": [
+				"*://*.roblox.com/*"
+			]
+		}
+	]
+}
